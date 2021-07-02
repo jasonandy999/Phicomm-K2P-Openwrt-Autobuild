@@ -13,10 +13,10 @@ on:
       - master
     paths:
       - "K2P.config"
-  schedule:
-    - cron: 0 0 * * 1
-  #watch:
-  #  types: [started]
+#  schedule:
+#    - cron: 0 0 * * 1
+  watch:
+    types: [started]
   workflow_dispatch:
     inputs:
       logs:
